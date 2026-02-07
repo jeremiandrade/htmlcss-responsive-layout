@@ -9,6 +9,20 @@
         padding: 30px;
     }
     
-    
-}  
+    .recipe-origin{
+        display:inline;
+        font-weight:1000;
+        
+    }
+
+    .btn{
+        padding: 0.60rem 3rem;
+        
+    }
+
+    .ads{
+        display: inline;
+    }
+
+}
     
