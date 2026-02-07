@@ -1,1 +1,14 @@
 /* Soluzione qui */
+
+@media screen and (min-width: 760px){
+    #topbar{
+        justify-content: flex-start;
+    }
+
+    .recipe{
+        padding: 30px;
+    }
+    
+    
+}  
+    
