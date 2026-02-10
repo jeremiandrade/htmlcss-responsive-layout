@@ -1,7 +1,4 @@
-/* Soluzione qui */
-
-
-
+/* media query tablet */
 
 @media screen and (min-width: 760px){
     #topbar{
@@ -14,14 +11,30 @@
     
     .recipe-origin{
         display:inline;
-        font-weight:1000px;
         
     }
 
+    .recipe-name{
+        font-size: 32px;
+    
+    }
 
-    .btn {
-        padding: 0.60rem 3rem;
-        margin-bottom: 1.5rem;  
+
+    .quick-notes ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li{
+        flex-basis:calc(100% / 3);
+    }
+
+
+
+
+    .social-networks .btn {
+        flex-basis: 7rem;
+        margin-bottom: 2rem; 
     }
 
 
@@ -29,7 +42,18 @@
         display: inline;
     }
 
+    .presentation img{
+        float: left;
+        margin-right: 1rem;
+    }
+
+
 }   
+
+/* media query tablet */
+
+
+/* media query dekstop */
 
 @media screen and (min-width: 991px) {
 
@@ -48,16 +72,24 @@
         height: auto;
     }
 
+
     .recipe-info{
         width: 30%;
         height: auto;
     }
+
+
+    ul{
+        display: block;
+    }
+
 
     .social-networks{
         display: inline;
 
     }
 
+    
 
 
 
@@ -78,5 +110,5 @@
 
     }
 
-
+/* media query dekstop */
 
