@@ -30,8 +30,6 @@
     }
 
 
-
-
     .social-networks .btn {
         flex-basis: 7rem;
         margin-bottom: 2rem; 
@@ -57,7 +55,7 @@
 
 @media screen and (min-width: 991px) {
 
-    h2{
+    .recipe-name{
         font-size: 2.5rem;
     }
     
@@ -79,18 +77,16 @@
     }
 
 
-    ul{
+    .quick-notes ul{
         display: block;
     }
 
 
-    .social-networks{
+    .social-networks .btn{
         display: inline;
+        /* chiedere */
 
     }
-
-    
-
 
 
     .social-networks .label{
